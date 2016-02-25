@@ -1,0 +1,17 @@
+.footer_wrapper {
+  background-color: $warmgray-lighter;
+  text-align: center;
+  font-size: 28px;
+  color: $warmgray-dark;
+  padding: 12px;
+  p {
+    font-size: 10px;
+  }
+}
+
+.footer_wrapper i:hover {
+  color: $peach;
+  text-decoration: none;
+}
+
+

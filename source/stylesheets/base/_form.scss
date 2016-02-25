@@ -1,0 +1,19 @@
+.form-control {
+  border-width: 1px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  p {
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: $white;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+
+.form-big {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
