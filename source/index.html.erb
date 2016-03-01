@@ -2,7 +2,7 @@
 title: Rianne's portfolio
 ---
 
-<div class="banner" style="background-image: url('../images/bannerpic.jpg');">
+<div class="banner">
   <div class="banner-content" style="padding-bottom: 150px;">
     <h1>In need for a</h1>
     <h1>fashionminded developer?</h1>
@@ -70,47 +70,21 @@ title: Rianne's portfolio
       <div class="col-xs-12 col-sm-4">
         <div class="projectbox">
           <div class="projectbox-content-img">
-            <img src="/images/shooting_square.jpg" alt="shooting" class="img-responsive">
+            <%= image_tag "shooting_square.jpg", class: "img-responsive"%>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
         <div class="projectbox">
-          <div class="projectbox-content">
-            <h1>Photography</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <div class="projectbox-content-img">
+            <%= image_tag "drawing_square.jpg", class: "img-responsive"%>
            </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
         <div class="projectbox">
           <div class="projectbox-content-img">
-            <img src="images/photo_square.jpg" alt="jewelry" class="img-responsive">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-4">
-        <div class="projectbox">
-          <div class="projectbox-content">
-            <h1>3D printing</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="projectbox">
-          <div class="projectbox-content-img">
-            <img src="images/drawing_square.jpg" alt="illustratie" class="img-responsive">
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="projectbox">
-          <div class="projectbox-content">
-            <h1>Illustratie</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <%= image_tag "photo_square.jpg", class: "img-responsive"%>
           </div>
         </div>
       </div>
@@ -122,21 +96,33 @@ title: Rianne's portfolio
 <div class="interests">
   <div class="container">
     <h1>Interests</h1>
-      <div class="interest-box">
-        <i class="fa fa-glass"></i>
+      <div class="row">
+        <div class="col-xs-2 col-xs-offset-1">
+          <div class="interest-box">
+            <i class="fa fa-glass"></i>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="interest-box">
+            <i class="fa fa-code"></i>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="interest-box">
+            <i class="fa fa-coffee"></i>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="interest-box">
+            <i class="fa fa-camera-retro"></i>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="interest-box">
+            <i class="fa fa-plane"></i>
+          </div>
+        </div>
       </div>
-      <div class="interest-box">
-        <i class="fa fa-code"></i>
-      </div>
-      <div class="interest-box">
-        <i class="fa fa-coffee"></i>
-      </div>
-      <div class="interest-box">
-        <i class="fa fa-camera-retro"></i>
-       </div>
-       <div class="interest-box">
-        <i class="fa fa-plane"></i>
-       </div>
   </div>
 </div>
 
@@ -180,10 +166,10 @@ title: Rianne's portfolio
   </div>
 </div>
 
-<div class="wrapper">
+<div class="profile">
   <div class="container">
-    <div class="welcome text-center padded">
-      <h1>Rianne</h1>
+    <div class="profile-control">
+      <h1 style="margin-bottom: 0px;">Rianne</h1>
       <h1>Westgeest</h1>
       <%= image_tag "profielfoto.jpg", :class => "avatar-extra-large"  %>
     </div>
