@@ -10,18 +10,18 @@ title: Rianne's portfolio
   </div>
 </div>
 
-<div class="about">
+<div id="about" class="about">
   <div class="container">
     <h1>About me</h1>
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim</p>
+        <p>I love to create beautiful things. Whether it is with code, paper, fabric, pen, wood or even a 3Dprinter, I love to build stuff from scratch and see how an idea becomes reality. I had the opportunity to develop a wide range of creative skills during my fashion education at Amsterdam Fashion Institute, and learned to build software during a 3 month bootcamp at <a href="www.lewagon.org" style="color: black;">Le Wagon</a>.</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="skills">
+<div id="skills" class="skills">
   <div class="container">
     <h1>Skills</h1>
     <div class="row">
@@ -127,40 +127,34 @@ title: Rianne's portfolio
 </div>
 
 
-<div class="contact" style="background-image: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%), url('../images/contact.jpg');">
+<div id="contact" class="contact">
 
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <h1>Get in touch</h1>
         <p><strong>Interested in working together?</strong> Contact me by filling in the contact form below or sent me a message via my social media platforms.</p>
-        <div class="row" style="padding-top: 20px;">
-          <div class="col-xs-4">
-            <form>
-              <input type="text" class="form-control" placeholder="Name">
-            </form>
+        <form action="//formspree.io/riannewestgeest@hotmail.com" method="POST">
+          <div class="row" style="padding-top: 20px;">
+            <div class="col-xs-4">
+              <input name="name" type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="col-xs-4">
+              <input name="email" type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-xs-4">
+              <input name="website" type="text" class="form-control" placeholder="Website">
+            </div>
           </div>
-          <div class="col-xs-4">
-            <form>
-              <input type="text" class="form-control" placeholder="Email">
-            </form>
+          <div class="row">
+            <div class="col-xs-8">
+              <input name="message" type="text" class="form-control form-big" placeholder="Tell me a little about yourself">
+            </div>
+            <div class="col-xs-4">
+              <button type="submit" class="btn btn-primary btn-control">Send</button>
+            </div>
           </div>
-          <div class="col-xs-4">
-            <form>
-              <input type="text" class="form-control" placeholder="Website">
-            </form>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-8">
-            <form>
-              <input type="text" class="form-control form-big" placeholder="Tell me a little about yourself">
-            </form>
-          </div>
-          <div class="col-xs-4">
-            <button type="submit" class="btn btn-primary btn-control">Send</button>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>
